@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eventlistener in javascript</title>
+</head>
+
+<body>
+    <h1>eventlistener in javascript</h1>
+    <button id="btn">click me</button>
+    <button id="btn2">double click</button>
+
+    <script>
+        //eventlistener(): addEventListeniner() method is used to add event listerner to an element
+
+        //syntax:
+        // element.addEventListerner(event, function, useCaapture);
+        //event: event name// functions: callback function;
+        //usecapture: true or false
+
+        //Example
+        const btn = getElementById("btn");
+        btn.addEventListener("click", functions()= {
+            //alert("this button has been clicked");
+            //document.write("this button has been clicked");
+             document.body.style.background = "red";
+        });
+
+        const btn2 = document.getElementById("btn2");
+        btn.addEventListener("dblclick",()=> {
+            //alert("this button has been double clicked");
+            document.body.style.background = "green";
+        });
+
+        //window eevent - Resize
+        window.addEventListener("resize", () => {
+            if (window.innerWidth < 900) {
+                document.body.style.background = "blue";
+            } else {
+                document.body.style.background = "yellow";
+            }
+
+        });
+    </script>
+
+</body>
+
+</html>

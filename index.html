@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Discover everyday essentials, the latest electronics, and great deals at MegaMart.">
+    <title>MegaMart | Everyday essentials and more</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement-bar">
+      <div class="container announcement-content">
+        <span>Welcome to worldwide MegaMart!</span>
+        <div class="announcement-links">
+          <a href="#delivery"><span class="utility-icon" aria-hidden="true">⌖</span> Deliver to 423651</a>
+          <a href="#orders"><span class="utility-icon" aria-hidden="true">▱</span> Track your order</a>
+          <a href="#deals"><span class="utility-icon" aria-hidden="true">◉</span> All Offers</a>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="container header-main">
+        <button class="icon-button menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+        <a class="brand" href="#" aria-label="MegaMart home">MegaMart</a>
+        <form class="search" role="search">
+          <label class="sr-only" for="site-search">Search products</label>
+          <span class="search-icon" aria-hidden="true"></span>
+          <input id="site-search" name="q" type="search" placeholder="Search essentials, groceries and more...">
+          <button class="search-submit" type="submit" aria-label="Search">☷</button>
+        </form>
+        <div class="header-actions">
+          <a href="#account"><span class="outline-icon person-icon" aria-hidden="true"></span><span>Sign Up/Sign In</span></a>
+          <span class="action-divider" aria-hidden="true"></span>
+          <button class="cart-button" type="button" aria-label="Shopping cart, 0 items">
+            <span class="outline-icon cart-icon" aria-hidden="true"></span>
+            <span>Cart</span>
+            <span class="cart-count" aria-live="polite">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <nav class="category-nav" aria-label="Shop categories">
+      <div class="container category-nav-inner">
+        <a class="nav-pill active" href="#essentials">Groceries <span aria-hidden="true">⌄</span></a>
+        <a class="nav-pill" href="#essentials">Premium Fruits <span aria-hidden="true">⌄</span></a>
+        <a class="nav-pill" href="#categories">Home &amp; Kitchen <span aria-hidden="true">⌄</span></a>
+        <a class="nav-pill" href="#categories">Fashion <span aria-hidden="true">⌄</span></a>
+        <a class="nav-pill" href="#brands">Electronics <span aria-hidden="true">⌄</span></a>
+        <a class="nav-pill" href="#categories">Beauty <span aria-hidden="true">⌄</span></a>
+        <a class="nav-pill" href="#categories">Home Improvement <span aria-hidden="true">⌄</span></a>
+        <a class="nav-pill" href="#categories">Sports, Toys &amp; Luggage <span aria-hidden="true">⌄</span></a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="container hero-section" aria-label="Featured offers">
+        <div class="hero-banner" id="hero-banner">
+          <div class="hero-copy">
+            <p class="hero-eyebrow">Best Deal Online on smart watches</p>
+            <h1>SMART WEARABLE.</h1>
+            <p class="hero-offer">UP to 80% OFF</p>
+            <div class="hero-dots" role="group" aria-label="Choose featured offer">
+              <button class="hero-dot selected" type="button" aria-label="Offer 1" aria-current="true"></button>
+              <button class="hero-dot" type="button" aria-label="Offer 2"></button>
+              <button class="hero-dot" type="button" aria-label="Offer 3"></button>
+              <button class="hero-dot" type="button" aria-label="Offer 4"></button>
+              <button class="hero-dot" type="button" aria-label="Offer 5"></button>
+              <button class="hero-dot" type="button" aria-label="Offer 6"></button>
+              <button class="hero-dot" type="button" aria-label="Offer 7"></button>
+            </div>
+          </div>
+          <div class="hero-art image-placeholder" role="img" aria-label="Placeholder for featured smartwatch image">
+            <span>Smartwatch image</span>
+          </div>
+          <button class="carousel-arrow previous" type="button" aria-label="Previous featured offer">‹</button>
+          <button class="carousel-arrow next" type="button" aria-label="Next featured offer">›</button>
+        </div>
+      </section>
+
+      <div class="container storefront-content">
+        <section class="store-section products-section" id="deals">
+          <div class="section-heading">
+            <h2>Grab the best deal on <span>Smartphones</span></h2>
+            <a href="#products">View All <span aria-hidden="true">›</span></a>
+          </div>
+          <div class="product-grid" id="products">
+            <article class="product-card" data-product="Galaxy S22 Ultra">
+              <div class="product-image image-placeholder phone-blue" role="img" aria-label="Placeholder image for Galaxy S22 Ultra"><span>Product image</span></div>
+              <span class="discount-badge">56%<br>OFF</span>
+              <div class="product-details"><h3>Galaxy S22 Ultra</h3><p class="price">₹32999 <del>₹74999</del></p><p class="saving">Save - ₹32000</p></div>
+              <button class="add-to-cart" type="button" aria-label="Add Galaxy S22 Ultra to cart">Add to Cart</button>
+            </article>
+            <article class="product-card featured-card" data-product="Galaxy M13 (4GB | 64 GB)">
+              <div class="product-image image-placeholder phone-purple" role="img" aria-label="Placeholder image for Galaxy M13"><span>Product image</span></div>
+              <span class="discount-badge">56%<br>OFF</span>
+              <div class="product-details"><h3>Galaxy M13 (4GB | 64 GB)</h3><p class="price">₹10499 <del>₹14999</del></p><p class="saving">Save - ₹4500</p></div>
+              <button class="add-to-cart" type="button" aria-label="Add Galaxy M13 to cart">Add to Cart</button>
+            </article>
+            <article class="product-card" data-product="Galaxy M33 (4GB | 64 GB)">
+              <div class="product-image image-placeholder phone-navy" role="img" aria-label="Placeholder image for Galaxy M33"><span>Product image</span></div>
+              <span class="discount-badge">56%<br>OFF</span>
+              <div class="product-details"><h3>Galaxy M33 (4GB | 64 GB)</h3><p class="price">₹16999 <del>₹24999</del></p><p class="saving">Save - ₹8000</p></div>
+              <button class="add-to-cart" type="button" aria-label="Add Galaxy M33 to cart">Add to Cart</button>
+            </article>
+            <article class="product-card" data-product="Galaxy M53 (4GB | 64 GB)">
+              <div class="product-image image-placeholder phone-pink" role="img" aria-label="Placeholder image for Galaxy M53"><span>Product image</span></div>
+              <span class="discount-badge">56%<br>OFF</span>
+              <div class="product-details"><h3>Galaxy M53 (4GB | 64 GB)</h3><p class="price">₹31999 <del>₹40999</del></p><p class="saving">Save - ₹9000</p></div>
+              <button class="add-to-cart" type="button" aria-label="Add Galaxy M53 to cart">Add to Cart</button>
+            </article>
+            <article class="product-card" data-product="Galaxy S22 Ultra Green">
+              <div class="product-image image-placeholder phone-green" role="img" aria-label="Placeholder image for Galaxy S22 Ultra in green"><span>Product image</span></div>
+              <span class="discount-badge">56%<br>OFF</span>
+              <div class="product-details"><h3>Galaxy S22 Ultra</h3><p class="price">₹67999 <del>₹85999</del></p><p class="saving">Save - ₹18000</p></div>
+              <button class="add-to-cart" type="button" aria-label="Add Galaxy S22 Ultra to cart">Add to Cart</button>
+            </article>
+          </div>
+          <p class="search-empty" hidden>No matching smartphones found. Try another search.</p>
+        </section>
+
+        <section class="store-section category-section" id="categories">
+          <div class="section-heading">
+            <h2>Shop From <span>Top Categories</span></h2>
+            <a href="#categories">View All <span aria-hidden="true">›</span></a>
+          </div>
+          <div class="category-grid">
+            <a class="category-item selected-category" href="#products"><div class="category-image image-placeholder">Mobile</div><span>Mobile</span></a>
+            <a class="category-item" href="#essentials"><div class="category-image image-placeholder">Cosmetics</div><span>Cosmetics</span></a>
+            <a class="category-item" href="#brands"><div class="category-image image-placeholder">Electronics</div><span>Electronics</span></a>
+            <a class="category-item" href="#categories"><div class="category-image image-placeholder">Furniture</div><span>Furniture</span></a>
+            <a class="category-item" href="#deals"><div class="category-image image-placeholder">Watches</div><span>Watches</span></a>
+            <a class="category-item" href="#essentials"><div class="category-image image-placeholder">Decor</div><span>Decor</span></a>
+            <a class="category-item" href="#categories"><div class="category-image image-placeholder">Accessories</div><span>Accessories</span></a>
+          </div>
+        </section>
+
+        <section class="store-section brands-section" id="brands">
+          <div class="section-heading">
+            <h2>Top <span>Electronics Brands</span></h2>
+            <a href="#brands">View All <span aria-hidden="true">›</span></a>
+          </div>
+          <div class="brand-grid">
+            <a class="brand-promo iphone-promo" href="#products"><span class="brand-label">IPHONE</span><span class="brand-logo">●</span><span class="brand-promo-copy">UP to 80% OFF</span><span class="brand-device image-placeholder">Phone image</span></a>
+            <a class="brand-promo realme-promo" href="#products"><span class="brand-label">REALME</span><span class="brand-logo">realme</span><span class="brand-promo-copy">UP to 80% OFF</span><span class="brand-device image-placeholder">Phone image</span></a>
+            <a class="brand-promo xiaomi-promo" href="#products"><span class="brand-label">XIAOMI</span><span class="brand-logo">mi</span><span class="brand-promo-copy">UP to 80% OFF</span><span class="brand-device image-placeholder">Phone image</span></a>
+          </div>
+          <div class="brand-pagination" aria-hidden="true"><span></span><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </section>
+
+        <section class="store-section essentials-section" id="essentials">
+          <div class="section-heading">
+            <h2>Daily <span>Essentials</span></h2>
+            <a href="#essentials">View All <span aria-hidden="true">›</span></a>
+          </div>
+          <div class="essentials-grid">
+            <a class="essential-item selected-essential" href="#essentials"><div class="essential-image image-placeholder">Daily Essentials</div><span>Daily Essentials</span><strong>UP to 50% OFF</strong></a>
+            <a class="essential-item" href="#essentials"><div class="essential-image image-placeholder">Vegetables</div><span>Vegetables</span><strong>UP to 50% OFF</strong></a>
+            <a class="essential-item" href="#essentials"><div class="essential-image image-placeholder">Fruits</div><span>Fruits</span><strong>UP to 50% OFF</strong></a>
+            <a class="essential-item" href="#essentials"><div class="essential-image image-placeholder">Strawberry</div><span>Strawberry</span><strong>UP to 50% OFF</strong></a>
+            <a class="essential-item" href="#essentials"><div class="essential-image image-placeholder">Mango</div><span>Mango</span><strong>UP to 50% OFF</strong></a>
+            <a class="essential-item" href="#essentials"><div class="essential-image image-placeholder">Cherry</div><span>Cherry</span><strong>UP to 50% OFF</strong></a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <div class="footer-contact">
+          <a class="footer-brand" href="#">MegaMart</a>
+          <h2>Contact Us</h2>
+          <p><span aria-hidden="true">◉</span> Whats App<br><a href="tel:+12029182132">+1 202-918-2132</a></p>
+          <p><span aria-hidden="true">♧</span> Call Us<br><a href="tel:+12029182132">+1 202-918-2132</a></p>
+          <h2 class="download-heading">Download App</h2>
+          <div class="app-badges"><a href="#app-store"> App Store</a><a href="#google-play"><span aria-hidden="true">▶</span> Google Play</a></div>
+        </div>
+        <div class="footer-column">
+          <h2>Most Popular Categories</h2>
+          <ul><li><a href="#essentials">Staples</a></li><li><a href="#essentials">Beverages</a></li><li><a href="#categories">Personal Care</a></li><li><a href="#categories">Home Care</a></li><li><a href="#categories">Baby Care</a></li><li><a href="#essentials">Vegetables &amp; Fruits</a></li><li><a href="#essentials">Snacks &amp; Foods</a></li><li><a href="#essentials">Dairy &amp; Bakery</a></li></ul>
+        </div>
+        <div class="footer-column">
+          <h2>Customer Services</h2>
+          <ul><li><a href="#about">About Us</a></li><li><a href="#terms">Terms &amp; Conditions</a></li><li><a href="#faq">FAQ</a></li><li><a href="#privacy">Privacy Policy</a></li><li><a href="#ewaste">E-waste Policy</a></li><li><a href="#returns">Cancellation &amp; Return Policy</a></li></ul>
+        </div>
+        <p class="copyright">© 2022 All rights reserved. Reliance Retail Ltd.</p>
+      </div>
+    </footer>
+  </body>
+</html>
