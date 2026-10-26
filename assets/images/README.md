@@ -1,16 +1,9 @@
-# Storefront image placeholders
+# Storefront image assets
 
-The landing page currently uses labelled CSS placeholders so it renders
-without missing-image errors. Replace those placeholder elements with
-your own optimized image files when you are ready.
+The storefront uses the image files in the project-root `images/` folder.
+`index.html` references product photos, category and grocery thumbnails,
+brand promotion images, and the featured smartwatch artwork directly from
+that folder. Keep those paths up to date when replacing or adding images.
 
-Suggested image groups:
-
-- `hero/` — featured banner artwork
-- `products/` — smartphone product photos
-- `categories/` — category thumbnails
-- `brands/` — brand promotion artwork
-- `essentials/` — grocery and daily essentials thumbnails
-
-Use descriptive filenames and update the corresponding placeholder in
-`index.html` when you add each image.
+Product images should use a consistent aspect ratio and enough resolution
+to remain sharp in both the product cards and cart.
